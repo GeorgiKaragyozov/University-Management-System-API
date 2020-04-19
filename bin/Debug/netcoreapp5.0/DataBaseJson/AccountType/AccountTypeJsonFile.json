@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "Code": "68151-0162",
+    "Name": "Amiloride Hydrochloride",
+    "Description": "Suspendisse ornare consequat lectus."
+  },
+  {
+    "id": 2,
+    "Code": "53808-0883",
+    "Name": "Hydrochlorothiazide",
+    "Description": "Nullam porttitor lacus at turpis."
+  },
+  {
+    "id": 3,
+    "Code": "55154-1394",
+    "Name": "Gabapentin",
+    "Description": "Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique."
+  },
+  {
+    "id": 4,
+    "Code": "68788-9979",
+    "Name": "Eye Wash",
+    "Description": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+  },
+  {
+    "id": 5,
+    "Code": "65121-994",
+    "Name": "H-Releve Hemorrhoidal",
+    "Description": "Donec vitae nisi."
+  },
+  {
+    "id": 6,
+    "Code": "65197-300",
+    "Name": "Gelusil",
+    "Description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy."
+  },
+  {
+    "id": 7,
+    "Code": "55714-1101",
+    "Name": "Prime Plus",
+    "Description": "Aliquam sit amet diam in magna bibendum imperdiet."
+  },
+  {
+    "id": 8,
+    "Code": "76126-075",
+    "Name": "mesna",
+    "Description": "In hac habitasse platea dictumst. Etiam faucibus cursus urna."
+  },
+  {
+    "id": 9,
+    "Code": "49852-200",
+    "Name": "Suntan Lotion",
+    "Description": "In hac habitasse platea dictumst."
+  },
+  {
+    "id": 10,
+    "Code": "0245-0422",
+    "Name": "Fentanyl",
+    "Description": "Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+  }
+]

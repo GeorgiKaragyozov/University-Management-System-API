@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "code": "43419-856",
+    "name": "6th",
+    "description": "Mechanical phacofragmentation and aspiration of cataract by posterior route"
+  },
+  {
+    "id": 2,
+    "code": "0409-7419",
+    "name": "Linden",
+    "description": "Incision and drainage of cranial sinus"
+  },
+  {
+    "id": 3,
+    "code": "13668-090",
+    "name": "Dakota",
+    "description": "Laparoscopic salpingo-oophoroplasty"
+  },
+  {
+    "id": 4,
+    "code": "75921-578",
+    "name": "Meadow Ridge",
+    "description": "Open reduction of alveolar fracture"
+  },
+  {
+    "id": 5,
+    "code": "64720-159",
+    "name": "Moulton",
+    "description": "Endoscopic insertion or replacement of bronchial valve(s), multiple lobes"
+  },
+  {
+    "id": 6,
+    "code": "44087-1150",
+    "name": "Sachs",
+    "description": "Transplant from live non-related donor"
+  },
+  {
+    "id": 7,
+    "code": "50382-011",
+    "name": "Meadow Vale",
+    "description": "Other reattachment of extremity"
+  },
+  {
+    "id": 8,
+    "code": "67457-449",
+    "name": "Cascade",
+    "description": "Removal of skeletal muscle stimulator"
+  },
+  {
+    "id": 9,
+    "code": "36987-2150",
+    "name": "Starling",
+    "description": "Removal of tympanostomy tube"
+  },
+  {
+    "id": 10,
+    "code": "10631-119",
+    "name": "American",
+    "description": "Replacement of automatic cardioverter/defibrillator lead(s) only"
+  }
+]

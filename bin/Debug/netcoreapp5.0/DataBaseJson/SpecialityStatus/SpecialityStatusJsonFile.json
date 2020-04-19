@@ -1,0 +1,62 @@
+﻿[
+  {
+    "id": 1,
+    "code": "68788-9070",
+    "name": "Ecole Nationale Supérieure des Mines de Paris",
+    "description": "Biopsy of eyelid"
+  },
+  {
+    "id": 2,
+    "code": "53808-0919",
+    "name": "Winona State University",
+    "description": "Initial insertion of transvenous lead [electrode] into ventricle"
+  },
+  {
+    "id": 3,
+    "code": "54868-5908",
+    "name": "West University of Timisoara",
+    "description": "Abdominal lymphangiogram"
+  },
+  {
+    "id": 4,
+    "code": "50544-005",
+    "name": "Universidade Federal de Ouro Preto",
+    "description": "Continent ileostomy"
+  },
+  {
+    "id": 5,
+    "code": "52544-161",
+    "name": "Escuela Militar de Ingeniería",
+    "description": "Bilateral reduction mammoplasty"
+  },
+  {
+    "id": 6,
+    "code": "50436-4164",
+    "name": "St. Petersburg State Theatre Arts Academy",
+    "description": "Sinogram of chest wall"
+  },
+  {
+    "id": 7,
+    "code": "52125-334",
+    "name": "Oral Roberts University",
+    "description": "Other operations on bone marrow"
+  },
+  {
+    "id": 8,
+    "code": "54973-2033",
+    "name": "St. Francis College, Loretto",
+    "description": "Plastic operation on pharynx"
+  },
+  {
+    "id": 9,
+    "code": "52125-739",
+    "name": "Illinois College",
+    "description": "Intrathoracic esophageal anastomosis with other interposition"
+  },
+  {
+    "id": 10,
+    "code": "43353-663",
+    "name": "Ecole Nationale Supérieure d'Agronomie de Montpellier",
+    "description": "Sialoadenectomy, not otherwise specified"
+  }
+]

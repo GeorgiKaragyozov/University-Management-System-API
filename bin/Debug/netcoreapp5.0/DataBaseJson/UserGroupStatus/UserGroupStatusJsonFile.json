@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "code": "63481-815",
+    "name": "gwhybrow0",
+    "description": "\"Light-for-dates\" without mention of fetal malnutrition, 750-999 grams"
+  },
+  {
+    "id": 2,
+    "code": "36987-3019",
+    "name": "aclaypoole1",
+    "description": "Defibrination syndrome"
+  },
+  {
+    "id": 3,
+    "code": "15127-979",
+    "name": "fgudeman2",
+    "description": "Open fracture of dorsal [thoracic] vertebra without mention of spinal cord injury"
+  },
+  {
+    "id": 4,
+    "code": "42023-130",
+    "name": "sleys3",
+    "description": "Herpes simplex myelitis"
+  },
+  {
+    "id": 5,
+    "code": "76485-1027",
+    "name": "lmcclenan4",
+    "description": "Screening for chronic bronchitis and emphysema"
+  },
+  {
+    "id": 6,
+    "code": "37205-296",
+    "name": "ccarl5",
+    "description": "Renal colic"
+  },
+  {
+    "id": 7,
+    "code": "59726-100",
+    "name": "etreagus6",
+    "description": "Rash and other nonspecific skin eruption"
+  },
+  {
+    "id": 8,
+    "code": "41167-0083",
+    "name": "droutley7",
+    "description": "Epilepsy, unspecified, with intractable epilepsy"
+  },
+  {
+    "id": 9,
+    "code": "49288-0346",
+    "name": "jmcmeekin8",
+    "description": "Facial nerve injury due to birth trauma"
+  },
+  {
+    "id": 10,
+    "code": "55714-1504",
+    "name": "ztregust9",
+    "description": "Malignant neoplasm of other specified sites of hypopharynx"
+  }
+]

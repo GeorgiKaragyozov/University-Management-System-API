@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "code": "51672-4146",
+    "name": "Accounting",
+    "description": "Other oxygen enrichment"
+  },
+  {
+    "id": 2,
+    "code": "69020-201",
+    "name": "Engineering",
+    "description": "Pyelostomy"
+  },
+  {
+    "id": 3,
+    "code": "10819-7005",
+    "name": "Product Management",
+    "description": "Removal or destruction of epithelial downgrowth from anterior chamber"
+  },
+  {
+    "id": 4,
+    "code": "65121-993",
+    "name": "Legal",
+    "description": "Other operations on nose"
+  },
+  {
+    "id": 5,
+    "code": "57520-0038",
+    "name": "Research and Development",
+    "description": "Contrast dacryocystogram"
+  },
+  {
+    "id": 6,
+    "code": "0093-0787",
+    "name": "Human Resources",
+    "description": "Dilation and curettage following delivery or abortion"
+  },
+  {
+    "id": 7,
+    "code": "53057-010",
+    "name": "Accounting",
+    "description": "Excision of varicocele and hydrocele of spermatic cord"
+  },
+  {
+    "id": 8,
+    "code": "0406-0512",
+    "name": "Support",
+    "description": "Unilateral radical mastectomy"
+  },
+  {
+    "id": 9,
+    "code": "36987-1918",
+    "name": "Human Resources",
+    "description": "Arthrotomy for removal of prosthesis without replacement, knee"
+  },
+  {
+    "id": 10,
+    "code": "55111-397",
+    "name": "Research and Development",
+    "description": "Other antesternal esophagoenterostomy"
+  }
+]

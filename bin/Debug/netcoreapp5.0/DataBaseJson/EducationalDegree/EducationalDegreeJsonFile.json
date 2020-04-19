@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "code": "37000-735",
+    "name": "Podcat",
+    "description": "Open ablation of renal lesion or tissue"
+  },
+  {
+    "id": 2,
+    "code": "49035-964",
+    "name": "Kare",
+    "description": "Incision of vessel, other vessels of head and neck"
+  },
+  {
+    "id": 3,
+    "code": "55111-579",
+    "name": "Nlounge",
+    "description": "Debridement of open fracture site, phalanges of foot"
+  },
+  {
+    "id": 4,
+    "code": "63739-532",
+    "name": "Eadel",
+    "description": "Other division of bone, tibia and fibula"
+  },
+  {
+    "id": 5,
+    "code": "68462-300",
+    "name": "Teklist",
+    "description": "Ligation and stripping of varicose veins, abdominal veins"
+  },
+  {
+    "id": 6,
+    "code": "76354-008",
+    "name": "Dynava",
+    "description": "Alveoloplasty"
+  },
+  {
+    "id": 7,
+    "code": "0268-6693",
+    "name": "Eidel",
+    "description": "Control of epistaxis by ligation of ethmoidal arteries"
+  },
+  {
+    "id": 8,
+    "code": "49702-223",
+    "name": "Zoomdog",
+    "description": "Biopsy of joint structure, knee"
+  },
+  {
+    "id": 9,
+    "code": "65044-2621",
+    "name": "Mita",
+    "description": "Removal of penetrating foreign body from eye, not otherwise specified"
+  },
+  {
+    "id": 10,
+    "code": "68012-003",
+    "name": "Quaxo",
+    "description": "Osteoclasis, other bones"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "code": "0548-1469",
+    "name": "Human Resources",
+    "description": "Closure of laceration of lung"
+  },
+  {
+    "id": 2,
+    "code": "54365-400",
+    "name": "Human Resources",
+    "description": "Amputation of ankle through malleoli of tibia and fibula"
+  },
+  {
+    "id": 3,
+    "code": "49288-0797",
+    "name": "Services",
+    "description": "Local excision of lesion of breast"
+  },
+  {
+    "id": 4,
+    "code": "55154-6834",
+    "name": "Product Management",
+    "description": "Other repair of diaphragm"
+  },
+  {
+    "id": 5,
+    "code": "35356-582",
+    "name": "Product Management",
+    "description": "Bilateral reduction mammoplasty"
+  },
+  {
+    "id": 6,
+    "code": "52316-028",
+    "name": "Marketing",
+    "description": "Excision or destruction of other lesion of external ear"
+  },
+  {
+    "id": 7,
+    "code": "21130-532",
+    "name": "Product Management",
+    "description": "Excision or destruction of other lesion of external ear"
+  },
+  {
+    "id": 8,
+    "code": "29978-601",
+    "name": "Services",
+    "description": "Arthrotomy for removal of prosthesis without replacement, foot and toe"
+  },
+  {
+    "id": 9,
+    "code": "0378-8170",
+    "name": "Product Management",
+    "description": "Replacement of (naso-)gastric or esophagostomy tube"
+  },
+  {
+    "id": 10,
+    "code": "0904-5797",
+    "name": "Sales",
+    "description": "Limited rhinoplasty"
+  }
+]

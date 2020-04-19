@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "code": "51668-405",
+    "name": "abrooksbank0",
+    "description": "Senile reticular degeneration",
+    "Status": {
+      "id": 1,
+      "code": "63481-815",
+      "name": "gwhybrow0",
+      "description": "\"Light-for-dates\" without mention of fetal malnutrition, 750-999 grams"
+    }
+  },
+  {
+    "id": 2,
+    "code": "59779-327",
+    "name": "bhamper1",
+    "description": "Open wound of other and multiple sites of face, without mention of complication",
+    "Status": {
+      "id": 2,
+      "code": "36987-3019",
+      "name": "aclaypoole1",
+      "description": "Defibrination syndrome"
+    }
+  },
+  {
+    "id": 3,
+    "code": "63550-193",
+    "name": "rgiscken2",
+    "description": "Poisoning of antimycobacterial antibiotics",
+    "Status": {
+      "id": 3,
+      "code": "15127-979",
+      "name": "fgudeman2",
+      "description": "Open fracture of dorsal [thoracic] vertebra without mention of spinal cord injury"
+    }
+  },
+  {
+    "id": 4,
+    "code": "14783-454",
+    "name": "cquidenham3",
+    "description": "Closed fractures involving skull or face with other bones, with other and unspecified intracranial hemorrhage, with concussion, unspecified",
+    "Status": {
+      "id": 4,
+      "code": "42023-130",
+      "name": "sleys3",
+      "description": "Herpes simplex myelitis"
+    }
+  },
+  {
+    "id": 5,
+    "code": "0054-8595",
+    "name": "vblincow4",
+    "description": "Unspecified examination",
+    "Status": {
+      "id": 5,
+      "code": "76485-1027",
+      "name": "lmcclenan4",
+      "description": "Screening for chronic bronchitis and emphysema"
+    }
+  },
+  {
+    "id": 6,
+    "code": "0904-1086",
+    "name": "csnazle5",
+    "description": "Other disorders of the pituitary and other syndromes of diencephalohypophyseal origin",
+    "Status": {
+      "id": 6,
+      "code": "37205-296",
+      "name": "ccarl5",
+      "description": "Renal colic"
+    }
+  },
+  {
+    "id": 7,
+    "code": "0555-1020",
+    "name": "rmatushevitz6",
+    "description": "Unspecified schizophrenia, subchronic with acute exacerbation",
+    "Status": {
+      "id": 7,
+      "code": "59726-100",
+      "name": "etreagus6",
+      "description": "Rash and other nonspecific skin eruption"
+    }
+  },
+  {
+    "id": 8,
+    "code": "58443-0018",
+    "name": "edouty7",
+    "description": "Postconcussion syndrome",
+    "Status": {
+      "id": 8,
+      "code": "41167-0083",
+      "name": "droutley7",
+      "description": "Epilepsy, unspecified, with intractable epilepsy"
+    }
+  },
+  {
+    "id": 9,
+    "code": "55154-5399",
+    "name": "sterzi8",
+    "description": "Atresia and stenosis of large intestine, rectum, and anal canal",
+    "Status": {
+      "id": 9,
+      "code": "49288-0346",
+      "name": "jmcmeekin8",
+      "description": "Facial nerve injury due to birth trauma"
+    }
+  },
+  {
+    "id": 10,
+    "code": "68387-236",
+    "name": "laverill9",
+    "description": "Extreme immaturity, 1,000-1,249 grams",
+    "Status": {
+      "id": 10,
+      "code": "55714-1504",
+      "name": "ztregust9",
+      "description": "Malignant neoplasm of other specified sites of hypopharynx"
+    }
+  }
+]
