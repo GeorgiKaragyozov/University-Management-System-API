@@ -1,18 +1,11 @@
 namespace University_Management_System_API
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Threading.Tasks;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
-    using Microsoft.AspNetCore.HttpsPolicy;
-    using Microsoft.AspNetCore.Mvc;
     using Microsoft.EntityFrameworkCore;
+    using Microsoft.Extensions.Hosting;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
-    using Microsoft.Extensions.Hosting;
-    using Microsoft.Extensions.Logging;
     using University_Management_System_API.Authentication.Common;
     using University_Management_System_API.Extensions.Common;
 
@@ -38,12 +31,10 @@ namespace University_Management_System_API
             // Injection of all objects
             BaseRegisterExtensions.BaseRegisterDependencies(services);
 
-            //services.AddSwaggerDocumentation();
-
             //Enable cors
             services.AddCors(options => options.AddPolicy("ApiCorsPolicy", builder =>
             {
-                builder.WithOrigins("http://localhost:4200")
+                builder.WithOrigins("https://localhost:44342/")
                 .AllowAnyMethod()
                 .AllowAnyHeader()
                 .AllowCredentials();
@@ -58,8 +49,6 @@ namespace University_Management_System_API
             {
                 app.UseDeveloperExceptionPage();
             }
-
-            //SwaggerServiceExtensions.UseSwaggerDocumentation(app);
 
             app.UseHttpsRedirection();
             app.UseRouting();

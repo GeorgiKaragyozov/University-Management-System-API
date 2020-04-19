@@ -60,7 +60,7 @@
         /// <returns>new param</returns>
         /// <response code="200">Logout Successfully</response>
         /// <response code="400"></response> 
-        [HttpPost(nameof(Logout))]
+        [HttpGet(nameof(Logout))]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public ActionResult Logout()
