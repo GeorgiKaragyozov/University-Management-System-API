@@ -7,6 +7,7 @@
     using System.Collections.Generic;
     using Microsoft.AspNetCore.Authorization;
     using University_Management_System_API.Business.Processor.Common;
+    using Castle.Core.Internal;
 
     [Authorize]
     [ApiController]
@@ -226,7 +227,12 @@
             {
                 List<TResult> result = Processor.Find(field, value);
 
-                return Ok(result);
+                if(!result.IsNullOrEmpty())
+                {
+                    return Ok(result);
+                }
+
+                return NotFound();
             }
             catch (Exception ex)
             {

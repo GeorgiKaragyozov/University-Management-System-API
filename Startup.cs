@@ -12,7 +12,7 @@ namespace University_Management_System_API
     public class Startup
     {
         public Startup(IConfiguration configuration) => this.Configuration = configuration;
-
+            
         public IConfiguration Configuration { get; }
 
         public void ConfigureServices(IServiceCollection services)
@@ -32,13 +32,15 @@ namespace University_Management_System_API
             BaseRegisterExtensions.BaseRegisterDependencies(services);
 
             //Enable cors
-            services.AddCors(options => options.AddPolicy("ApiCorsPolicy", builder =>
+            services.AddCors(options => 
             {
-                builder.WithOrigins("https://localhost:44342/")
-                .AllowAnyMethod()
-                .AllowAnyHeader()
-                .AllowCredentials();
-            }));
+                options.AddPolicy("ApiCorsPolicy", 
+                    builder => builder.WithOrigins()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .SetIsOriginAllowed((host) => true)
+                        .AllowCredentials());
+            });
 
             services.AddControllers();
         }
@@ -50,18 +52,13 @@ namespace University_Management_System_API
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
-            app.UseRouting();
-
-            app.UseCors("ApiCorsPolicy");
-
-            app.UseAuthentication();
-            app.UseAuthorization();
-
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
+            app
+                .UseCors("ApiCorsPolicy")
+                .UseHttpsRedirection()
+                .UseRouting()
+                .UseAuthentication()
+                .UseAuthorization()
+                .UseEndpoints(config => config.MapControllers());
         }
     }
 }
