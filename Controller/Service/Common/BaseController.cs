@@ -2,12 +2,12 @@
 {
     using System;
     using System.Linq;
+    using Castle.Core.Internal;
     using Microsoft.AspNetCore.Http;
     using Microsoft.AspNetCore.Mvc;
     using System.Collections.Generic;
     using Microsoft.AspNetCore.Authorization;
     using University_Management_System_API.Business.Processor.Common;
-    using Castle.Core.Internal;
 
     [Authorize]
     [ApiController]

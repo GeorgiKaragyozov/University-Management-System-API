@@ -145,7 +145,10 @@
 
             foreach (TEntity item in entities)
             {
-                results.Add(ResultConverter.Convert(item));
+                if(item.Active != 0)
+                {
+                    results.Add(ResultConverter.Convert(item));
+                }             
             }
 
             return results;
@@ -164,7 +167,10 @@
 
             foreach (var item in entities)
             {
-                results.Add(ResultConverter.Convert(item));
+                if (item.Active != 0)
+                {
+                    results.Add(ResultConverter.Convert(item));
+                }
             }
 
             return results;
