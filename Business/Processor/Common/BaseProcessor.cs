@@ -57,6 +57,7 @@
         {
             TEntity entity = null;
 
+            param.DateCreated = DateTime.Now;
             entity = ParamConverter.Convert(param, entity);
             entity = Dao.Save(entity);
 

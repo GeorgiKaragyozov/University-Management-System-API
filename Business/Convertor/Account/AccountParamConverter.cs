@@ -69,12 +69,7 @@
             entity.Status = StatusDao.Find(param.StatusId);
             entity.Speciality = SpecialityDao.Find(param.SpecialityId);
             entity.TypeAccount = AccountTypeDao.Find(param.TypeId);
-
-            //
-            if (entity.TypeAccount.Name != "Student")
-            {
-                entity.Departament = DepartamentDao.Find(param.DepartamentId);
-            }      
+            entity.Departament = DepartamentDao.Find(param.DepartamentId);    
 
             if (entity.Status == null || entity.User == null)
             {

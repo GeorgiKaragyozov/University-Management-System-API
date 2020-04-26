@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 using University_Management_System_API.DataAccess.DataAccessObject.Common.SeedData;
 
 namespace University_Management_System_API.Migrations
 {
-    public partial class defualt : Migration
+    public partial class Defualt : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -14,6 +15,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true)
@@ -30,6 +32,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true)
@@ -46,6 +49,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true),
@@ -64,6 +68,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true)
@@ -80,6 +85,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true)
@@ -96,6 +102,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true)
@@ -112,6 +119,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true)
@@ -128,6 +136,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true)
@@ -144,6 +153,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true)
@@ -160,6 +170,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true)
@@ -176,6 +187,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true)
@@ -192,6 +204,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true)
@@ -208,6 +221,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true)
@@ -224,6 +238,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true)
@@ -240,6 +255,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true),
@@ -263,6 +279,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true),
@@ -286,6 +303,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true),
@@ -309,6 +327,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true),
@@ -332,6 +351,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true),
@@ -355,6 +375,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Username = table.Column<string>(nullable: true),
                     Password = table.Column<string>(nullable: true),
                     StatusId = table.Column<long>(nullable: false)
@@ -377,6 +398,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true),
@@ -414,6 +436,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     UserId = table.Column<long>(nullable: false),
                     UserGroupId = table.Column<long>(nullable: false)
                 },
@@ -441,6 +464,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true),
@@ -502,6 +526,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true),
@@ -532,6 +557,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true),
@@ -569,6 +595,7 @@ namespace University_Management_System_API.Migrations
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<short>(nullable: false, defaultValue: 1),
+                    DateCreated = table.Column<DateTime>(nullable: false),
                     Code = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true),
@@ -599,7 +626,7 @@ namespace University_Management_System_API.Migrations
                         onDelete: ReferentialAction.NoAction);
                 });
 
-            //Sql Script
+            // Sql Script
             SqlScriptMigration.BuilderScript(migrationBuilder);
 
             migrationBuilder.CreateIndex(
