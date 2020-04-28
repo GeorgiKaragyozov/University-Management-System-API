@@ -186,8 +186,7 @@
         /// <returns>params</returns>
         /// <response code="302">Returns the found item</response>
         [HttpGet(nameof(ListAll))]
-        //[Authorize(Roles = "Admin, User")]     
-        [AllowAnonymous]
+        [Authorize(Roles = "admin")]     
         [ProducesResponseType(StatusCodes.Status302Found)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public ActionResult ListAll()
@@ -215,7 +214,7 @@
         [HttpGet("FindByField/{field}/{value}")]
         [ProducesResponseType(StatusCodes.Status302Found)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [AllowAnonymous]
+        [Authorize(Roles = "admin")]
         public ActionResult FindByField(string field, string value)
         {
             if(field == null && value == null)
@@ -395,7 +394,6 @@
         /// <response code="200">Returns update items by Id</response>
         /// <response code="400">If the param's id is null</response> 
         [HttpPut("DeleteById/{id}")]
-        //[Authorize(Roles = "Admin, User")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]     
         public ActionResult DeleteById(TPK id)

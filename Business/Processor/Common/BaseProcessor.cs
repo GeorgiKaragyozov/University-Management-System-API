@@ -57,7 +57,8 @@
         {
             TEntity entity = null;
 
-            param.DateCreated = DateTime.Now;
+            var dateAndTime = DateTime.Now;
+            param.DateCreated = dateAndTime.Date;
             entity = ParamConverter.Convert(param, entity);
             entity = Dao.Save(entity);
 
@@ -215,6 +216,9 @@
 
             if (oldEntity != null)
             {
+                var dateAndTime = DateTime.Now;
+                param.DateCreated = dateAndTime.Date;
+
                 TEntity newEntity = Dao.Update(ParamConverter.Convert(param, oldEntity));
                 Dao.Update(newEntity);
             }
