@@ -6,6 +6,7 @@
     using Microsoft.AspNetCore.Authorization;
     using University_Management_System_API.Business.Processor.Auth;
     using University_Management_System_API.Business.Convertor.Auth;
+    using System.Collections.Generic;
 
     [Authorize]
     [ApiController]
@@ -86,6 +87,28 @@
             try
             {       
                 return Ok(Processor.Register(param));
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+
+        [HttpGet("GetUserGroups/{userId}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [AllowAnonymous]
+        public ActionResult GetUserGroups(string userId)
+        {
+            try
+            {
+                if(userId != null)
+                {
+                    List<string> results = Processor.GetUserGroups(userId);
+                    return Ok(results);
+                }
+
+                return BadRequest();          
             }
             catch (Exception ex)
             {

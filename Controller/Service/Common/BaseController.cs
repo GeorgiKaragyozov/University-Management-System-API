@@ -39,7 +39,7 @@
         [HttpPost(nameof(Create))]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [AllowAnonymous]
+        [Authorize(Roles = "admin")]
         public ActionResult Create([FromBody]TParam param)
         {
             if (param == null)
@@ -69,6 +69,7 @@
         [HttpPost(nameof(CreateByList))]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [Authorize(Roles = "admin")]
         public ActionResult CreateByList([FromBody]List<TParam> param)
         {
             if (param == null)

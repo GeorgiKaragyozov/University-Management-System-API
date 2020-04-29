@@ -15,9 +15,10 @@
     using University_Management_System_API.Business.Processor.Account;
     using University_Management_System_API.Business.Convertor.Account;
     using University_Management_System_API.Business.Convertor.Auth;
-    using University_Management_System_API.Business.Convertor.TrainingType;
     using University_Management_System_API.Business.Convertor.AccountType;
     using University_Management_System_API.Business.Processor.AccountType;
+    using University_Management_System_API.Business.Processor.UserUserGroup;
+    using System.Collections.Generic;
 
     public class AuthProcessor : IAuthProcessor
     {
@@ -61,6 +62,14 @@
         }
 
 
+        private IUserUserGroupProcessor _processorUserUserGroup;
+        public IUserUserGroupProcessor ProcessorUserUserGroup
+        {
+            get { return _processorUserUserGroup; }
+            set { _processorUserUserGroup = value; }
+        }
+
+
         private IOptions<SecretKeySettings> _options;
         public IOptions<SecretKeySettings> Options
         {
@@ -74,7 +83,8 @@
             IUserProcessor userProcessor,
             IAccountProcessor accountProcessor,
             IOptions<SecretKeySettings> options,
-            IAccountTypeProcessor accountTypeProcessor)
+            IAccountTypeProcessor accountTypeProcessor,
+            IUserUserGroupProcessor processorUserUserGroup)
         {
             this.HttpContextAccessor = httpContextAccessor;
             this.ApiSessionProcessor = apiSessionProcessor;
@@ -82,6 +92,7 @@
             this.AccountTypeProcessor = accountTypeProcessor;
             this.UserProcessor = userProcessor;
             this.Options = options;
+            this.ProcessorUserUserGroup = processorUserUserGroup;
         }
 
         public UserResult GetUser()
@@ -229,6 +240,13 @@
             AccountResult accountResult = AccountProcessor.Create(accountParam);
 
             return accountResult;
+        }
+
+        public List<string> GetUserGroups(string userId)
+        {
+            return ProcessorUserUserGroup.Find("UserId", userId)
+              .Select(x => x.UserGroupName)
+              .ToList();
         }
     }
 }
