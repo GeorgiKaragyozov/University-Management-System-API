@@ -1,4 +1,4 @@
-﻿namespace University_Management_System_API.Controller.Service.Common
+﻿ namespace University_Management_System_API.Controller.Service.Common
 {
     using System;
     using System.Linq;
@@ -215,7 +215,6 @@
         [HttpGet("FindByField/{field}/{value}")]
         [ProducesResponseType(StatusCodes.Status302Found)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [Authorize(Roles = "admin")]
         public ActionResult FindByField(string field, string value)
         {
             if(field == null && value == null)

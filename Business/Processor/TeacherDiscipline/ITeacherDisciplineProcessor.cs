@@ -1,5 +1,6 @@
 ﻿namespace University_Management_System_API.Business.Processor.TeacherDiscipline
 {
+    using System.Collections.Generic;
     using University_Management_System_API.Business.Convertor.TeacherDiscipline;
     using University_Management_System_API.Business.Processor.Common;
 
